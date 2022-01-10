@@ -28,7 +28,7 @@ func main() {
 
 	router := mux.NewRouter().StrictSlash(true)
 
-	router.Handle("/v2/provider", handler.GetProvider(appConfig)).Methods(http.MethodGet)
+	router.Handle("/v2/claimRTR", handler.GetProvider(appConfig)).Methods(http.MethodGet)
 
 	httpErr := http.ListenAndServe(fmt.Sprintf(":%d", appConfig.Port), gziphandler.GzipHandler(cors.Default().Handler(router)))
 	if httpErr != nil {

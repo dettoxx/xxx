@@ -1,5 +1,5 @@
 {
     "Environemnt": "dev",
     "Port": 8080,
-    "AppName": "Provider"
+    "AppName": "ClaimRTR"
 }

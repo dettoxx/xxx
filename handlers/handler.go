@@ -10,7 +10,7 @@ import (
 func GetProvider(appConfig *configs.Config) http.HandlerFunc {
 	return func(rw http.ResponseWriter, req *http.Request) {
 		//TODO handle the req and make necessary service calls to ProviderRTR
-		response := ProviderRtrResponse{}
+		response := ClaimRTRrequest{}
 
 
 		//set the response type

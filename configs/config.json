@@ -1,16 +1,11 @@
 {
   "Environemnt": "local",
   "Port": 8080,
-  "AppName": "Provider",
+  "AppName": "ClaimRTR",
   "ServiceConfigs": [
     {
-      "ServiceName": "ProviderRTR",
-      "Url": "https://dev-int-api-gw.centene.com/provRTR",
-      "AuthKey": ""
-    },
-    {
-      "ServiceName": "ProviderRTRForLocation",
-      "Url": "https://dev-int-api-gw.centene.com/provRTR/v2/provider/location",
+      "ServiceName": "ClaimRTR",
+      "Url": "https://dev-int-api-gw.centene.com/claims-rtr/claims",
       "AuthKey": ""
     }
   ]
