@@ -1,0 +1,5 @@
+{
+    "Environemnt": "prod",
+    "Port": 8080,
+    "AppName": "Provider"
+}
